@@ -20,7 +20,6 @@ header a {
   top: 0;
   left: 0;
   right: 0;
-  background: #000000;
   background: white;
   padding: 35px 0;
 }
@@ -64,7 +63,6 @@ header a {
   display: block;
 }
 .container .menu-addres span:first-child {
-  color: gray;
   color: rgb(108, 175, 87);
   text-transform: uppercase;
 }
