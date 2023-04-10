@@ -1,0 +1,342 @@
+html {
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-flow: column;
+}
+header a {
+  text-decoration: none;
+}
+
+.container {
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #000000;
+  padding: 35px 0;
+}
+.container .main-log {
+  display: inline-block;
+  margin: -90px 0 40px 0;
+}
+.container .main-log img {
+  margin-top: 20px;
+  width: 340px;
+  height: 180px;
+}
+.container .addres,
+.container .mobile-number,
+.container .language-menu {
+  padding: 40px;
+}
+.container .menu-addres {
+  float: right;
+  display: flex;
+  color: white;
+}
+.container .menu-addres .addres {
+  display: flex;
+  align-items: center;
+}
+.container .menu-addres .addres i {
+  margin: 0 7px 0 0;
+}
+.container .menu-addres .addres .addres1 {
+  display: block;
+}
+.container .mobile-number {
+  display: flex;
+  align-items: center;
+}
+.container .mobile-number i {
+  margin: 0 7px 0 0;
+}
+.container .mobile-number .number {
+  display: block;
+}
+.container .menu-addres span:first-child {
+  color: gray;
+  text-transform: uppercase;
+}
+.container span {
+  display: block;
+}
+
+.main-menu {
+  background: white;
+  margin-top: -54px;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0px 11px 20px rgba(102, 191, 191, 0.5);
+  z-index: 1;
+  padding: 5px;
+}
+.main-menu ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.main-menu ul li {
+  margin-left: 11%;
+}
+.main-menu ul li a:hover {
+  color: white;
+  background-color: #f79f24;
+  border-radius: 20px;
+  transition: all 0.5s ease-in;
+}
+.main-menu ul li a {
+  display: inline-block;
+  padding: 12px;
+  color: black;
+  font-size: 1.786rem;
+}
+
+.sectionContent {
+  background-image: url(../imge/homePage2.jpg);
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+.sectionContent .text {
+  left: 700px;
+  position: absolute;
+  top: 300px;
+  color: white;
+}
+.sectionContent .text h3 {
+  font-size: 2.857rem;
+}
+.sectionContent .text p {
+  font-size: 2.143em;
+}
+.sectionContent .text .titel {
+  margin: 70px;
+  font-size: 2.857rem;
+}
+
+.about {
+  display: flex;
+  font-size: 1.786rem;
+  height: 500px;
+  padding: 25px 150px;
+}
+.about .image {
+  display: block;
+}
+.about .image .about-image {
+  background-image: url(../imge/about1.jpg);
+  height: 300px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.about .image .about-image1 {
+  background-image: url(../imge/about2.jpg);
+  height: 300px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.about .about-text-menu {
+  flex: 1;
+  text-align: center;
+}
+.about .about-text-menu .text-button {
+  display: flex;
+}
+.about .about-text-menu button {
+  background-color: blue;
+  border-radius: 15%;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 32px 16px;
+  cursor: pointer;
+}
+
+.auto-container {
+  padding: 3%;
+}
+.auto-container .Auto-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 3%;
+}
+.auto-container .auto-menu {
+  gap: 30px 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  height: 600px;
+  margin-bottom: 70px;
+  color: white;
+  font-size: 1.786rem;
+  font-weight: bold;
+}
+.auto-container .auto-menu .engine-image {
+  background-image: url(../imge/engine.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  position: relative;
+}
+.auto-container .auto-menu .engine-image span {
+  position: absolute;
+  padding: 30px;
+  top: 68px;
+  right: -10px;
+  bottom: 0;
+  left: 0;
+}
+.auto-container .auto-menu .transmission-image {
+  background-image: url(../imge/gearbox.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  position: relative;
+}
+.auto-container .auto-menu .transmission-image span {
+  position: absolute;
+  padding: 30px;
+  top: 48px;
+  right: -23px;
+  bottom: 0;
+  left: 42px;
+}
+.auto-container .auto-menu .differential-image {
+  background-image: url(../imge/differential.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  position: relative;
+}
+.auto-container .auto-menu .differential-image span {
+  position: absolute;
+  padding: 30px;
+  top: 94px;
+  right: 0;
+  bottom: 0;
+  left: 10px;
+}
+.auto-container .auto-menu .wiring-image {
+  background-image: url(../imge/wiring.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  position: relative;
+}
+.auto-container .auto-menu .wiring-image span {
+  position: absolute;
+  padding: 30px;
+  top: 96px;
+  right: 0;
+  bottom: 0;
+  left: 7px;
+}
+.auto-container .auto-menu .autoair-conditioning-image {
+  background-image: url(../imge/autoair-conditioning.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  position: relative;
+  color: #000000;
+}
+.auto-container .auto-menu .autoair-conditioning-image span {
+  position: absolute;
+  padding: 30px;
+  top: 79px;
+  right: 0;
+  bottom: 0;
+  left: 26px;
+}
+.auto-container .auto-menu .brakes-image {
+  background-image: url(../imge/brakes.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  position: relative;
+}
+.auto-container .auto-menu .brakes-image span {
+  position: absolute;
+  padding: 30px;
+  top: 68px;
+  right: 0;
+  bottom: 0;
+  left: 40px;
+}
+.auto-container .auto-menu .air-system-image {
+  background-image: url(../imge/air-system.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  position: relative;
+}
+.auto-container .auto-menu .air-system-image span {
+  position: absolute;
+  padding: 30px;
+  top: 68px;
+  right: 0;
+  bottom: 0;
+  left: 51px;
+}
+.auto-container .auto-menu .suspension-image {
+  background-image: url(../imge/suspension.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  position: relative;
+}
+.auto-container .auto-menu .suspension-image span {
+  position: absolute;
+  padding: 30px;
+  top: 95px;
+  right: 0;
+  bottom: 0;
+  left: 30px;
+}
+
+.contakt-menu {
+  display: flex;
+  padding: 70px;
+}
+.contakt-menu .contakt-us {
+  background: #f79f24;
+  color: #fff;
+  margin-top: 1, 5rem;
+  margin-bottom: 1, 5rem;
+  padding: 3rem;
+}
+.contakt-menu .contakt-us h2 {
+  font-weight: 400;
+  font-size: 2.857rem;
+}
+.contakt-menu .contakt-us .adres {
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+.contakt-menu .contakt-us .phone {
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+.contakt-menu .contakt-us .email {
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=style.css.map */

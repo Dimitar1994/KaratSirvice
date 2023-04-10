@@ -1,0 +1,420 @@
+@import'_variables';
+
+@import'_mixin';
+
+html {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-flow: column;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+
+
+.container {
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #000000;
+    padding: 35px 0;
+
+    .main-log {
+
+        display: inline-block;
+
+        margin: -90px 0 40px 0;
+
+        img {
+            margin-top: 20px;
+            width: 340px;
+            height: 180px;
+        }
+
+    }
+
+
+    .addres,
+    .mobile-number,
+    .language-menu {
+        padding: 40px;
+    }
+
+    .menu-addres {
+
+        float: right;
+        display: flex;
+        color: white;
+
+        .addres {
+            display: flex;
+            align-items: center;
+
+            i {
+                margin: 0 7px 0 0;
+            }
+
+            .addres1 {
+                display: block;
+            }
+        }
+
+    }
+
+    .mobile-number {
+        display: flex;
+        align-items: center;
+
+        i {
+            margin: 0 7px 0 0;
+        }
+
+        .number {
+            display: block;
+        }
+    }
+
+    .menu-addres span:first-child {
+        color: gray;
+        text-transform: uppercase;
+    }
+
+    span {
+        display: block;
+    }
+
+}
+
+
+.main-menu {
+    background: white;
+    margin-top: -54px;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 11px 20px rgb(102 191 191 / 50%);
+    z-index: 1;
+    padding: 5px;
+
+    ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            margin-left: 11%;
+
+            a:hover {
+                color: white;
+                background-color: #f79f24;
+                border-radius: 20px;
+                transition: all 0.5s ease-in;
+            }
+
+
+
+            a {
+                display: inline-block;
+                padding: 12px;
+                color: $main-color-blue;
+                font-size: 1.786rem;
+
+            }
+        }
+    }
+
+}
+
+
+
+.sectionContent {
+    background-image: url(../imge/homePage2.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+
+    .text {
+
+        left: 700px;
+        position: absolute;
+        top: 300px;
+        color: white;
+
+        h3 {
+            font-size: 2.857rem;
+        }
+
+        p {
+            font-size: 2.143em;
+        }
+
+        .titel {
+
+            margin: 70px;
+
+            font-size: 2.857rem;
+        }
+    }
+}
+
+.about {
+    display: flex;
+    font-size: 1.786rem;
+    height: 500px;
+    padding: 25px 150px;
+
+    .image {
+        display: block;
+
+        .about-image {
+            background-image: url(../imge/about1.jpg);
+            height: 300px;
+            width: 500px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .about-image1 {
+            background-image: url(../imge/about2.jpg);
+            height: 300px;
+            width: 500px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+
+    .about-text-menu {
+        flex: 1;
+        text-align: center;
+
+        .text-button {
+            display: flex;
+        }
+
+        button {
+            background-color: blue;
+            border-radius: 15%;
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 30px;
+            margin: 32px 16px;
+            cursor: pointer;
+        }
+    }
+}
+
+.auto-container {
+
+    padding: 3%;
+
+    .Auto-title {
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        padding-bottom: 3%;
+    }
+
+    .auto-menu {
+        gap: 30px 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        height: 600px;
+        margin-bottom: 70px;
+        color: white;
+        font-size: 1.786rem;
+        font-weight: bold;
+
+
+        .engine-image {
+            background-image: url(../imge/engine.jpg);
+            background-size: cover;
+            background-position: center;
+            border-radius: 20px;
+            position: relative;
+
+            span {
+                position: absolute;
+                padding: 30px;
+                top: 68px;
+                right: -10px;
+                bottom: 0;
+                left: 0;
+            }
+        }
+
+        .transmission-image {
+            background-image: url(../imge/gearbox.jpg);
+            background-size: cover;
+            background-position: center;
+            border-radius: 20px;
+            position: relative;
+
+            span {
+                position: absolute;
+                padding: 30px;
+                top: 48px;
+                right: -23px;
+                bottom: 0;
+                left: 42px;
+
+            }
+        }
+
+        .differential-image {
+            background-image: url(../imge/differential.jpg);
+            background-size: cover;
+            background-position: center;
+            border-radius: 20px;
+            position: relative;
+
+            span {
+                position: absolute;
+                padding: 30px;
+                top: 94px;
+                right: 0;
+                bottom: 0;
+                left: 10px;
+            }
+        }
+
+        .wiring-image {
+            background-image: url(../imge/wiring.jpg);
+            background-size: cover;
+            background-position: center;
+            border-radius: 20px;
+            position: relative;
+
+
+            span {
+                position: absolute;
+                padding: 30px;
+                top: 96px;
+                right: 0;
+                bottom: 0;
+                left: 7px;
+            }
+        }
+
+        .autoair-conditioning-image {
+            background-image: url(../imge/autoair-conditioning.jpg);
+            background-size: cover;
+            background-position: center;
+            border-radius: 20px;
+            position: relative;
+            color: #000000;
+
+            span {
+                position: absolute;
+                padding: 30px;
+                top: 79px;
+                right: 0;
+                bottom: 0;
+                left: 26px;
+            }
+        }
+
+        .brakes-image {
+            background-image: url(../imge/brakes.jpg);
+            background-size: cover;
+            background-position: center;
+            border-radius: 20px;
+            position: relative;
+
+            span {
+                position: absolute;
+                padding: 30px;
+                top: 68px;
+                right: 0;
+                bottom: 0;
+                left: 40px;
+            }
+        }
+
+        .air-system-image {
+            background-image: url(../imge/air-system.jpg);
+            background-size: cover;
+            background-position: center;
+            border-radius: 20px;
+            position: relative;
+
+            span {
+                position: absolute;
+                padding: 30px;
+                top: 68px;
+                right: 0;
+                bottom: 0;
+                left: 51px;
+            }
+        }
+
+        .suspension-image {
+            background-image: url(../imge/suspension.png);
+            background-size: cover;
+            background-position: center;
+            border-radius: 20px;
+            position: relative;
+
+            span {
+                position: absolute;
+                padding: 30px;
+                top: 95px;
+                right: 0;
+                bottom: 0;
+                left: 30px;
+            }
+
+        }
+
+
+    }
+}
+
+.contakt-menu {
+    display: flex;
+    padding: 70px;
+
+    .contakt-us {
+        background: #f79f24;
+        color: #fff;
+        margin-top: 1, 5rem;
+        margin-bottom: 1, 5rem;
+        padding: 3rem;
+
+        h2 {
+            font-weight: 400;
+            font-size: 2.857rem;
+        }
+
+        .adres {
+            margin-bottom: 25px;
+            font-size: 18px;
+        }
+
+        .phone {
+            margin-bottom: 25px;
+            font-size: 18px;
+        }
+
+        .email {
+            font-size: 18px;
+        }
+    }
+}
