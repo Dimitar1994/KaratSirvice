@@ -139,12 +139,14 @@ header {
 
 
 
-.sectionContent {
-    background-image: url(../imge/homePage2.jpg);
-    height: 600px;
-    background-size: cover;
-    background-position: center;
-
+#slideshow-container {
+    position:relative;
+    img {
+        position:absolute;
+        top:0;
+        left:0;
+        display:none;
+    }
     .text {
 
         left: 700px;

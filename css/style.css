@@ -102,25 +102,28 @@ header a {
   font-size: 1.786rem;
 }
 
-.sectionContent {
-  background-image: url(../imge/homePage2.jpg);
-  height: 600px;
-  background-size: cover;
-  background-position: center;
+#slideshow-container {
+  position: relative;
 }
-.sectionContent .text {
+#slideshow-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+#slideshow-container .text {
   left: 700px;
   position: absolute;
   top: 300px;
   color: white;
 }
-.sectionContent .text h3 {
+#slideshow-container .text h3 {
   font-size: 2.857rem;
 }
-.sectionContent .text p {
+#slideshow-container .text p {
   font-size: 2.143em;
 }
-.sectionContent .text .titel {
+#slideshow-container .text .titel {
   margin: 70px;
   font-size: 2.857rem;
 }
