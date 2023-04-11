@@ -8,7 +8,7 @@ function myFunction() {
   }
 
   function myFunction3() {
-    document.getElementById("demo").innerHTML = "как е";
+    document.getElementById("demo").innerHTML = "Нашият сервиз е основа през 2012 г. и е специализиран сервиз за обслужване и ремонт на тежкотоварни автомобили. Нашите специалисти извършват ремонти на място , така и на аварирал тежкотоварни  автомобил.";
   }
 
 
