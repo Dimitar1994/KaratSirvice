@@ -1,10 +1,10 @@
 
 function myFunction() {
-    document.getElementById("demo").innerHTML = "Hello World";
+    document.getElementById("demo").innerHTML = "Основна та ни цел е максимален перфекционизъм в подръжката на Вашият камион.Освен общата подръжка , нашият екип се грижи за превантивните мерки за избягване на неочаквани ремонти, аварии и загубено време.";
   }
 
   function myFunction1() {
-    document.getElementById("demo").innerHTML = "здравеи свят";
+    document.getElementById("demo").innerHTML = "В света на тежкотоварни автомобили качестовото на частите и на ремонтите е не просто задължение - то е призвание.Затова ние не правим компромиси с качеството и надежността на Вашият автомобил.";
   }
 
   function myFunction3() {
