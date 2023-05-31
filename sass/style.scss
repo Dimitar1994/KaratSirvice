@@ -1,1 +1,18 @@
+body {
+    #colorLogo {
+        background-color: #0d0d0d;
+        color: white;
+        #logo {
+            width: 50%;
+            height: 137px;
+        }
+        span{
+            display: block;
+        }
+       
+        
+    }
+}
+
+
 @import'../node_modules/bootstrap/scss/bootstrap.scss'
