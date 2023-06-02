@@ -5,110 +5,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Това е саит представящ сервиза за камиони Карат/This is a site representing the Karat truck service">
-    <meta name="keywords" content="Камиони,Сервиз,Ремонт,Поправка,Карат,Trucks, Service, Repair, Carat">
-    <meta name="author" content="Dimitar Ivalinov Ivanov">
-    <title>Начална страница</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    <title>Document</title>
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <a href="index.html" class="main-log">
-                <img class="logo" src="imge/logo2.jpg" alt="logo">
+    <div id="colorLogo" class="row ">
+        <div class="col-6">
+            <a href="index.html">
+                <img id="logo" src="./images/logo2.jpg" alt="karat service logo">
             </a>
-            <div class="menu-addres">
-                <div class="addres">
-                    <i class="fa-solid fa-location-dot fa-bounce fa-2xl" style="color: #6f7276;"></i>
-                    <div class="addres1">
-                        <span>Адрес</span>
-                        <span>Аксаково,Област михлюза</span>
+        </div>
+        <div class="col-6 mt-5">
+            <div class="row ">
+                <div class=" col-6 d-flex align-items-center">
+                    <i class="fa-solid fa-location-dot fa-bounce fa-2xl me-3" style="color: #6f7276;"></i>
+                    <div>
+                        <span class="fw-semibold address ">АДРЕС</span>
+                        <span class="fst-italic">гр.Аксаково,Област михлюза</span>
                     </div>
                 </div>
-                <div class="mobile-number">
-                    <i class="fa-solid fa-phone fa-shake fa-2xl" style="color: #9a9da2;"></i>
-                    <div class="number">
-                        <span>Телефон за контакти</span>
-                        <span>+359892924275</span>
+                <div class="col-6 d-flex align-items-center">
+                    <i class="fa-solid fa-phone fa-shake fa-2xl me-3" style="color: #9a9da2;"></i>
+                    <div>
+                        <span class="fw-semibold address">ТЕЛЕФОН ЗА КОНТАКТИ</span>
+                        <span class="fst-italic "> <i class="fa-solid fa-mobile-screen fa-xs"
+                                style="color: #6f7276;"></i> 0887553625, <i class="fa-solid fa-mobile-screen fa-xs"
+                                style="color: #6f7276;"></i> 0887074986</span>
                     </div>
                 </div>
-
             </div>
         </div>
-        <div class="wrap">
-            <nav class="main-menu">
-                <ul>
-                    <li><a href="index.html">Начало</a></li>
-                    <li><a href="about.html">За нас</a></li>
-                    <li><a href="autoRepairServices.html">Абтосервизни услуги </a></li>
-                    <li><a href="contact.html">Контакти</a></li>
-                </ul>
-            </nav>
-        </div>
+    </div>
+    <div>
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-0 border-bottom">
 
-    </header>
 
-    <main>
-
-        <div id="slideshow-container">
-            <img class="slides" src="imge/scren1.jpg" alt="pic">
-            <img class="slides" src="imge/scren2.jpg" alt="pic">
-            <img class="slides" src="imge/scren3.jpg" alt="pic">
-            <div class="text">
-                <h2>Добре дошли</h2>
-                <div class="presentation">
-                    <h3>В Сервиз за камиони Карат</h3>
-                </div>
-            </div>
-        </div>
-        <script src="main.js"></script>
-        </div>
-    </main>
-    <div class="spaces"></div>
-    <footer>
-        <div class="footer-container">
-            <div class="services">
-                <h3>Абтосервизни услуги</h2>
-                    <ul>
-                        <li>Ремонт на двигатели</li>
-                        <li>Ремонт на скоростни кутии</li>
-                        <li>Ремонт на диференциали</li>
-                        <li>Ремонт на окачване</li>
-                        <li>Ремонт на спирачна система</li>
-                    </ul>
-            </div>
-            <div class="contact-information">
-                <h3>Контакти</h3>
-                <div>
-                    <i class="fa-solid fa-location-dot fa-lg"></i> <span>Адрес:град Аксаково ,област
-                        Михлюза</span>
-                </div>
-                <div>
-                    <i class="fa-solid fa-phone fa-lg"></i><span>Телефони за връзка: +359893456790
-                        ,+3595234567 </span>
-                </div>
-                <div>
-                    <i class="fa-solid fa-envelope fa-lg"></i><span> Имейл:карат@gmail.com</span>
-                </div>
-            </div>
-            <div class="business-houra">
-                <h3>Работно време </h3>
-                <div>
-                    <span>Понеделник-Петък: от 08:00 - 17:00 </span>
-                </div>
-                <div>
-                    <span>Почивни дни:Събота и Неделя</span>
-                </div>
-            </div>
-        </div>
-    </footer>
-
+            <ul class="nav nav-pills fw-normal fs-4 ">
+                <li class="nav-item me-5"><a href="index.html" class="nav-link text-black active ">Начало</a></li>
+                <li class="nav-item me-5 "><a href="autoRepairServices.html" class="nav-link text-black  ">Автосервизни
+                        услуги</a></li>
+                <li class="nav-item me-5"><a href="contacts.html" class="nav-link text-black ">Контакти</a></li>
+                <li class="nav-item"><a href="abuot.htm" class="nav-link text-black ">За нас</a></li>
+            </ul>
+        </header>
+        <div class="slider">
+            <div class="sliderpic"><img src="images/scren1.jpg" alt="scren1"></div>
+            <div class="sliderpic" ><img src="images/scren2.jpg" alt="scren2"></div>
+            <div class="sliderpic"><img src="images/scren3.jpg" alt="scren3"></div>
+           
+          </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="main.js" ></script>
 </body>
 
 </html>
