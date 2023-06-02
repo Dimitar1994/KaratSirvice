@@ -1,8 +1,6 @@
 @charset "UTF-8";
 html body .bx-wrapper img {
   width: 100%;
-}
-html body .bx-viewport {
   height: 700px;
 }
 html body #colorLogo {
