@@ -1,16 +1,22 @@
 @charset "UTF-8";
-body #colorLogo {
+html body .bx-wrapper img {
+  width: 100%;
+}
+html body .bx-viewport {
+  height: 700px;
+}
+html body #colorLogo {
   background-color: #0d0d0d;
   color: white;
 }
-body #colorLogo #logo {
+html body #colorLogo #logo {
   width: 50%;
   height: 137px;
 }
-body #colorLogo span {
+html body #colorLogo span {
   display: block;
 }
-body #colorLogo .address {
+html body #colorLogo .address {
   color: #6f7276;
 }
 

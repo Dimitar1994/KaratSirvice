@@ -1,21 +1,35 @@
-body {
-    #colorLogo {
-        background-color: #0d0d0d;
-        color: white;
-        #logo {
-            width: 50%;
-            height: 137px;
-        }
-        span{
-            display: block;
-        }
-         
-        .address{
-            color:#6f7276 ;
-        }
-     
-    }
-}
+ html {
+     body {
+        .bx-wrapper img{
+            width: 100%;
 
+         }
 
-@import'../node_modules/bootstrap/scss/bootstrap.scss'
+         .bx-viewport{
+            height: 700px;
+         }
+         #colorLogo {
+             background-color: #0d0d0d;
+             color: white;
+
+             #logo {
+                 width: 50%;
+                 height: 137px;
+             }
+
+             span {
+                 display: block;
+             }
+
+             .address {
+                 color: #6f7276;
+             }
+
+            
+
+         }
+     }
+
+ }
+
+ @import'../node_modules/bootstrap/scss/bootstrap.scss'
