@@ -1,13 +1,13 @@
  html {
      body {
 
-
+//this is size of slider
          .bx-wrapper img {
             width: 100%;
              height: 700px;
          }
 
-
+// start header settings         
          #colorLogo {
              background-color: #0d0d0d;
              color: white;
@@ -19,15 +19,24 @@
 
              span {
                  display: block;
+                 font-size: 0.875rem;
              }
 
              .address {
                  color: #6f7276;
+                font-size: 0.938rem;
              }
-
-
+            
+               
+           
 
          }
+         ul{
+             .activ-orange{
+               background-color: orange;
+             }  
+           
+        } 
      }
 
  }

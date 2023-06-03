@@ -13,9 +13,14 @@ html body #colorLogo #logo {
 }
 html body #colorLogo span {
   display: block;
+  font-size: 0.875rem;
 }
 html body #colorLogo .address {
   color: #6f7276;
+  font-size: 0.938rem;
+}
+html body ul .activ-orange {
+  background-color: orange;
 }
 
 /*!
