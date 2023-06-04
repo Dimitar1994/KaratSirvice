@@ -1,13 +1,13 @@
  html {
      body {
 
-//this is size of slider
+         //this is size of slider
          .bx-wrapper img {
-            width: 100%;
+             width: 100%;
              height: 700px;
          }
 
-// start header settings         
+         // start header settings         
          #colorLogo {
              background-color: #0d0d0d;
              color: white;
@@ -24,20 +24,56 @@
 
              .address {
                  color: #6f7276;
-                font-size: 0.938rem;
+                 font-size: 0.938rem;
              }
-            
-               
-           
 
          }
-         ul{
-            .activ-orange{
-               background-color: orange;
-               border-radius: 1.25rem;
-             }  
-           
-        } 
+
+         .main-menu {
+             li {
+                 a {
+                     transition: .3s all ease;
+                     color: orange;
+
+                     &:hover,
+                     &:focus {
+                         text-decoration: none;
+                         color: orange;
+                         outline: none !important;
+                     }
+                 }
+             }
+         }
+
+
+
+
+         .engine {
+             height: 300px;
+             background-image: url(../images/engine.jpg);
+             background-size: cover;
+             background-position: center;
+             position: relative;
+
+             a {
+
+                 color: white;
+                 position: absolute;
+                 padding: 16%;
+                 top: 0;
+                 right: 0;
+                 bottom: 0;
+                 left: 0;
+                 font-size: 1.78rem;
+                 background: linear-gradient(180deg, rgba(0, 0, 0, 0) 49.81%, rgba(0, 0, 0, 0.7) 100%), url(.jpg), rgba(196, 196, 196, 0.3);
+                 font-weight: bold;
+                 text-decoration: none;
+                 text-align: center;
+
+             }
+
+         }
+
      }
 
  }

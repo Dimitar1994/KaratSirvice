@@ -15,9 +15,5 @@ $(document).ready(function () {
 
     });
 
-   $('.switch-class li ').click(function () {
-    console.log('stop') ;
-    $(this).removeClass('activ-orange');
-    $(this).addClass('activ-orange');
-   });
+  
 })
