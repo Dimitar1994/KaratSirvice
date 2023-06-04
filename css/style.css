@@ -21,6 +21,7 @@ html body #colorLogo .address {
 }
 html body ul .activ-orange {
   background-color: orange;
+  border-radius: 1.25rem;
 }
 
 /*!
