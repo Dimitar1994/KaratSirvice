@@ -43,14 +43,7 @@ html body .main-menu li:hover a {
   border-radius: 1.25rem;
   transform: translateY(-5px);
 }
-html body .engine {
-  height: 300px;
-  background-image: url(../images/engine.jpg);
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-html body .engine a {
+html body .auto-menu a {
   color: white;
   position: absolute;
   padding: 16%;
@@ -64,9 +57,99 @@ html body .engine a {
   text-decoration: none;
   text-align: center;
 }
+html body .auto-menu .engine {
+  height: 300px;
+  background-image: url(../images/engine.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+html body .auto-menu .transmission {
+  height: 300px;
+  background-image: url(../images/gearbox.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+html body .auto-menu .deferential {
+  height: 300px;
+  background-image: url(../images/differential.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+html body .auto-menu .electrical-installation {
+  height: 300px;
+  background-image: url(../images/wiring.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+html body .auto-menu .air-conditioner {
+  height: 300px;
+  background-image: url(../images/autoair-conditioning.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+html body .auto-menu .braking-system {
+  height: 300px;
+  background-image: url(../images/brakes.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+html body .auto-menu .air-system {
+  height: 300px;
+  background-image: url(../images/air-system.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+html body .auto-menu .suspension {
+  height: 300px;
+  background-image: url(../images/suspension.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+html body .auto-menu .diagnostics {
+  height: 300px;
+  background-image: url(../images/diagnostiks.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
 html body .contakt-us {
   background-color: #FEBA4F;
   color: white;
+}
+html body .abuot span {
+  font-size: 1.25rem;
+}
+html body .abuot .abuot1 {
+  height: 300px;
+  background-image: url(../images/about1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+html body .abuot .abuot2 {
+  height: 300px;
+  background-image: url(../images/about2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+html body .abuot .abuot3 {
+  height: 300px;
+  background-image: url(../images/about3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+html body .abuot .abuot4 {
+  height: 300px;
+  background-image: url(../images/abuot4.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 /*!

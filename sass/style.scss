@@ -2,21 +2,23 @@
      body {
 
          //this is size of slider
-         .bx-wrapper { 
-            border: none;
-            img {
-             width: 100%;
-             height: 700px;
+         .bx-wrapper {
              border: none;
-         }
 
-         .bx-pager{
-            display: none;
-         }
+             img {
+                 width: 100%;
+                 height: 700px;
+                 border: none;
 
-         .bx-controls-direction a{
-            display: none;
-         }
+             }
+
+             .bx-pager {
+                 display: none;
+             }
+
+             .bx-controls-direction a {
+                 display: none;
+             }
          }
 
          // start header settings         
@@ -42,37 +44,31 @@
          }
 
          .main-menu {
-            li{
-                a{
-                    transition: all .4s;
-                }
-            }
+             li {
+                 a {
+                     transition: all .4s;
+                 }
+             }
 
-           .active-color{
-           background-color:  #FEBA4F;
-           box-shadow: 0px 2px 6px rgba(151, 179, 217, 0.55);
-           border-radius:1.25rem;
-           }
+             .active-color {
+                 background-color: #FEBA4F;
+                 box-shadow: 0px 2px 6px rgba(151, 179, 217, 0.55);
+                 border-radius: 1.25rem;
+             }
 
-           li:hover a {
-            background-color: #E89611;
-            box-shadow: 0px 2px 6px rgba(151, 179, 217, 0.55);
-            border-radius:1.25rem;
-                     
-            transform: translateY(-5px);
-        }
+             li:hover a {
+                 background-color: #E89611;
+                 box-shadow: 0px 2px 6px rgba(151, 179, 217, 0.55);
+                 border-radius: 1.25rem;
+
+                 transform: translateY(-5px);
+             }
          }
 
 
          //autoRepairService settings
 
-         .engine {
-             height: 300px;
-             background-image: url(../images/engine.jpg);
-             background-size: cover;
-             background-position: center;
-             position: relative;
-
+         .auto-menu {
              a {
 
                  color: white;
@@ -90,13 +86,130 @@
 
              }
 
+             .engine {
+                 height: 300px;
+                 background-image: url(../images/engine.jpg);
+                 background-size: cover;
+                 background-position: center;
+                 position: relative;
+
+             }
+
+             .transmission {
+                 height: 300px;
+                 background-image: url(../images/gearbox.jpg);
+                 background-size: cover;
+                 background-position: center;
+                 position: relative;
+
+             }
+
+             .deferential {
+                 height: 300px;
+                 background-image: url(../images/differential.jpg);
+                 background-size: cover;
+                 background-position: center;
+                 position: relative;
+
+             }
+
+             .electrical-installation  {
+                height: 300px;
+                background-image: url(../images/wiring.jpg);
+                background-size: cover;
+                background-position: center;
+                position: relative;
+
+            }
+
+            .air-conditioner  {
+                height: 300px;
+                background-image: url(../images/autoair-conditioning.jpg);
+                background-size: cover;
+                background-position: center;
+                position: relative;
+
+            }
+
+            .braking-system {
+                height: 300px;
+                background-image: url(../images/brakes.jpg);
+                background-size: cover;
+                background-position: center;
+                position: relative;
+
+            }
+
+            .air-system {
+                height: 300px;
+                background-image: url(../images/air-system.jpg);
+                background-size: cover;
+                background-position: center;
+                position: relative;
+
+            }
+            .suspension {
+                height: 300px;
+                background-image: url(../images/suspension.png);
+                background-size: cover;
+                background-position: center;
+                position: relative;
+
+            }
+
+            .diagnostics {
+                height: 300px;
+                background-image: url(../images/diagnostiks.jpg);
+                background-size: cover;
+                background-position: center;
+                position: relative;
+
+            } 
+
          }
 
          //contacts settings
          .contakt-us {
-            background-color:#FEBA4F ;
-            color: white;
-            
+             background-color: #FEBA4F;
+             color: white;
+
+         }
+
+         //abuot settings
+         .abuot {
+
+             span {
+                 font-size: 1.25rem;
+             }
+
+             .abuot1 {
+                 height: 300px;
+                 background-image: url(../images/about1.jpg);
+                 background-size: cover;
+                 background-position: center;
+             }
+
+             .abuot2 {
+                 height: 300px;
+                 background-image: url(../images/about2.jpg);
+                 background-size: cover;
+                 background-position: center;
+             }
+
+             .abuot3 {
+                 height: 300px;
+                 background-image: url(../images/about3.jpg);
+                 background-size: cover;
+                 background-position: center;
+             }
+
+             .abuot4 {
+                 height: 300px;
+                 background-image: url(../images/abuot4.jpg);
+                 background-size: cover;
+                 background-position: center;
+             }
+
          }
      }
 
