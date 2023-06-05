@@ -30,13 +30,18 @@ html body #colorLogo .address {
   font-size: 0.938rem;
 }
 html body .main-menu li a {
-  transition: 0.3s all ease;
-  color: orange;
+  transition: all 0.4s;
 }
-html body .main-menu li a:hover, html body .main-menu li a:focus {
-  text-decoration: none;
-  color: orange;
-  outline: none !important;
+html body .main-menu .active-color {
+  background-color: #FEBA4F;
+  box-shadow: 0px 2px 6px rgba(151, 179, 217, 0.55);
+  border-radius: 1.25rem;
+}
+html body .main-menu li:hover a {
+  background-color: #E89611;
+  box-shadow: 0px 2px 6px rgba(151, 179, 217, 0.55);
+  border-radius: 1.25rem;
+  transform: translateY(-5px);
 }
 html body .engine {
   height: 300px;
@@ -58,6 +63,10 @@ html body .engine a {
   font-weight: bold;
   text-decoration: none;
   text-align: center;
+}
+html body .contakt-us {
+  background-color: #FEBA4F;
+  color: white;
 }
 
 /*!

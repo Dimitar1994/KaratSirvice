@@ -42,23 +42,29 @@
          }
 
          .main-menu {
-             li {
-                 a {
-                     transition: .3s all ease;
-                     color: orange;
+            li{
+                a{
+                    transition: all .4s;
+                }
+            }
 
-                     &:hover,
-                     &:focus {
-                         text-decoration: none;
-                         color: orange;
-                         outline: none !important;
-                     }
-                 }
-             }
+           .active-color{
+           background-color:  #FEBA4F;
+           box-shadow: 0px 2px 6px rgba(151, 179, 217, 0.55);
+           border-radius:1.25rem;
+           }
+
+           li:hover a {
+            background-color: #E89611;
+            box-shadow: 0px 2px 6px rgba(151, 179, 217, 0.55);
+            border-radius:1.25rem;
+                     
+            transform: translateY(-5px);
+        }
          }
 
 
-
+         //autoRepairService settings
 
          .engine {
              height: 300px;
@@ -86,6 +92,12 @@
 
          }
 
+         //contacts settings
+         .contakt-us {
+            background-color:#FEBA4F ;
+            color: white;
+            
+         }
      }
 
  }
