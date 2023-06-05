@@ -2,9 +2,21 @@
      body {
 
          //this is size of slider
-         .bx-wrapper img {
+         .bx-wrapper { 
+            border: none;
+            img {
              width: 100%;
              height: 700px;
+             border: none;
+         }
+
+         .bx-pager{
+            display: none;
+         }
+
+         .bx-controls-direction a{
+            display: none;
+         }
          }
 
          // start header settings         
