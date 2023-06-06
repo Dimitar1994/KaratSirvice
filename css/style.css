@@ -58,63 +58,63 @@ html body .auto-menu a {
   text-align: center;
 }
 html body .auto-menu .engine {
-  height: 300px;
+  height: 250px;
   background-image: url(../images/engine.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
 }
 html body .auto-menu .transmission {
-  height: 300px;
+  height: 250px;
   background-image: url(../images/gearbox.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
 }
 html body .auto-menu .deferential {
-  height: 300px;
+  height: 250px;
   background-image: url(../images/differential.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
 }
 html body .auto-menu .electrical-installation {
-  height: 300px;
+  height: 250px;
   background-image: url(../images/wiring.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
 }
 html body .auto-menu .air-conditioner {
-  height: 300px;
+  height: 250px;
   background-image: url(../images/autoair-conditioning.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
 }
 html body .auto-menu .braking-system {
-  height: 300px;
+  height: 250px;
   background-image: url(../images/brakes.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
 }
 html body .auto-menu .air-system {
-  height: 300px;
+  height: 250px;
   background-image: url(../images/air-system.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
 }
 html body .auto-menu .suspension {
-  height: 300px;
+  height: 250px;
   background-image: url(../images/suspension.png);
   background-size: cover;
   background-position: center;
   position: relative;
 }
 html body .auto-menu .diagnostics {
-  height: 300px;
+  height: 250px;
   background-image: url(../images/diagnostiks.jpg);
   background-size: cover;
   background-position: center;
