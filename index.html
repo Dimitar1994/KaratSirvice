@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -52,12 +54,57 @@
             <li class="nav-item"><a href="abuot.htm" class="nav-link text-black ">За нас</a></li>
         </ul>
     </header>
-    <div class="slider">
-        <div class="sliderpic"><img src="images/scren1.jpg" alt="scren1"></div>
-        <div class="sliderpic"><img src="images/scren2.jpg" alt="scren2"></div>
-        <div class="sliderpic"><img src="images/scren3.jpg" alt="scren3"></div>
+    <div id="slideshow">
+
+        <div style="background-image: url(images/scren1.jpg);">
+            <div class="main-title">
+                <h1>Добре дошли в сервиз КАРАТ</h1>
+                <span class="h2">Най-доброто за вашия камион</span>
+            </div>
+
+        </div>
+        <div style="background-image: url(images/scren2.jpg);">
+
+            <div class="main-title">
+                <h1>Добре дошли в сервиз КАРАТ.</h1>
+                <span>Най-доброто за вашия камион</span>
+            </div>
+        </div>
+        <div style="background-image: url(images/scren3.jpg);">
+            <div class="main-title">
+                <h1>Добре дошли в сервиз КАРАТ</h1>
+                <span>Най-доброто за вашия камион</span>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2 class="text-center mt-5  second-title">Услуги те който предлагаме</h2>
+        <div class="row">
+            <div class="col m-4 p-3 color ">
+                <h4 class="mb-4">Пътна помощ</h4>
+                <span>Карат притежава добре оборудван парк с специализирани камиони за извършване на услуги като Пътна
+                    помощ
+                    на камиони, автобуси, микробуси, репатрирането им във всякакви ситуации,
+                    аварирали, катастрофирали .</span>
+            </div>
+            <div class="col m-4 p-3 color">
+                <h4 class="mb-4">Мобилна работилница</h4>
+                <span class="mb-4">Мобилна та работилница е добър избор за висококачествено обслужване на
+                    автомобила на място.Повечето собственици на автомобили предпочитат да потърсят услугата мобилен
+                    сервиз. За тях това е най-добрият начин за ремонт на автомобила, тъй като някои клиенти не
+                    разполагат с необходимото време да посетят автосервиз.За това нашият сервиз разполага с
+                    мобилен екип, които е на Ваше разположение </span>
+            </div>
+            <div class="col m-4 p-3 color ">
+               <h4 class="mb-4" >Абтосервизни услуги</h4>
+                <span>КАРАТ е специализиран сервиз за ремонт и подръжка на среден и висок клас тежкотоварни автомобили.
+                    Работим само и единствено със марка та VOLVO.Държим на прецизността в работата си, качеството на
+                    изпълнение, личното и персонално внимание и отношение към всеки наш клиент.</span>
+            </div>
+        </div>
     </div>
     <div class="bg-black text-white ">
+
         <div class="container">
             <footer class="row  ">
                 <div class="col-4 mb-4  mt-5">
@@ -125,7 +172,6 @@
     </div>
 
     <script src="jquery-3.7.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="main.js"></script>
 </body>
 

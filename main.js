@@ -1,19 +1,23 @@
 
 $(document).ready(function () {
-    
+   
+
+    $("#slideshow > div:gt(0)").hide();
+
+    setInterval(function() { 
+      $('#slideshow > div:first')
+        .fadeOut(10)
+        .next()
+        .fadeIn(1000)
+        .end()
+        .appendTo('#slideshow');
+    },  90000);
 
 
 
 
 
    
-    $(".slider").bxSlider({
-        mode: 'fade',
-        speed: 1300,
-        auto: true,
-        pause: 6000,
-
-    });
-
+    
   
 })

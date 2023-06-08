@@ -47,6 +47,7 @@
              li {
                  a {
                      transition: all .4s;
+                     font-family: 'Rubik', sans-serif;
                  }
              }
 
@@ -65,12 +66,62 @@
              }
          }
 
+         //index settings
+
+         //slider
+
+         #slideshow {
+
+             position: relative;
+
+             div {
+                 width: 100%;
+                 height: 700px;
+                 background-size: cover;
+                 background-position: center;
+
+                 .main-title {
+                     position: absolute;
+                     top: 200px;
+                     left: 250px;
+                     color: white;
+                     text-shadow: 2px 2px black;
+                     font-family: 'Rubik', sans-serif;
+
+                     h1 {
+                         font-size: 3.5rem;
+                     }
+                 }
+             }
+
+        }
+
+        .second-title{
+            color: #E89611;
+            font-family: 'Rubik', sans-serif;
+        }
+
+        .color{
+            text-shadow: 1px 1px black ;
+            background-color: #E89611;
+            border-radius: 20px;
+            font-family: 'Rubik', sans-serif;
+            span{
+                color: #3d3f43;
+                font-size: 1.125rem;
+            }
+        }
+
+        
+
 
          //autoRepairService settings
 
          .auto-menu {
-             a {
+             font-family: 'Rubik', sans-serif;
 
+             a {
+                 text-shadow: 1px 1px black;
                  color: white;
                  position: absolute;
                  padding: 16%;
@@ -113,58 +164,59 @@
 
              }
 
-             .electrical-installation  {
-                height: 250px;
-                background-image: url(../images/wiring.jpg);
-                background-size: cover;
-                background-position: center;
-                position: relative;
+             .electrical-installation {
+                 height: 250px;
+                 background-image: url(../images/wiring.jpg);
+                 background-size: cover;
+                 background-position: center;
+                 position: relative;
 
-            }
+             }
 
-            .air-conditioner  {
-                height: 250px;
-                background-image: url(../images/autoair-conditioning.jpg);
-                background-size: cover;
-                background-position: center;
-                position: relative;
+             .air-conditioner {
+                 height: 250px;
+                 background-image: url(../images/autoair-conditioning.jpg);
+                 background-size: cover;
+                 background-position: center;
+                 position: relative;
 
-            }
+             }
 
-            .braking-system {
-                height: 250px;
-                background-image: url(../images/brakes.jpg);
-                background-size: cover;
-                background-position: center;
-                position: relative;
+             .braking-system {
+                 height: 250px;
+                 background-image: url(../images/brakes.jpg);
+                 background-size: cover;
+                 background-position: center;
+                 position: relative;
 
-            }
+             }
 
-            .air-system {
-                height: 250px;
-                background-image: url(../images/air-system.jpg);
-                background-size: cover;
-                background-position: center;
-                position: relative;
+             .air-system {
+                 height: 250px;
+                 background-image: url(../images/air-system.jpg);
+                 background-size: cover;
+                 background-position: center;
+                 position: relative;
 
-            }
-            .suspension {
-                height: 250px;
-                background-image: url(../images/suspension.png);
-                background-size: cover;
-                background-position: center;
-                position: relative;
+             }
 
-            }
+             .suspension {
+                 height: 250px;
+                 background-image: url(../images/suspension.png);
+                 background-size: cover;
+                 background-position: center;
+                 position: relative;
 
-            .diagnostics {
-                height: 250px;
-                background-image: url(../images/diagnostiks.jpg);
-                background-size: cover;
-                background-position: center;
-                position: relative;
+             }
 
-            } 
+             .diagnostics {
+                 height: 250px;
+                 background-image: url(../images/diagnostiks.jpg);
+                 background-size: cover;
+                 background-position: center;
+                 position: relative;
+
+             }
 
          }
 
@@ -177,6 +229,7 @@
 
          //abuot settings
          .abuot {
+             font-family: 'Rubik', sans-serif;
 
              span {
                  font-size: 1.25rem;
