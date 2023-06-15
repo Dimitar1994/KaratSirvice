@@ -51,13 +51,13 @@ html body .main-menu li:hover a {
 html body #slideshow {
   position: relative;
 }
-html body #slideshow div {
+html body #slideshow .slide-pic {
   width: auto;
   height: 700px;
   background-size: cover;
   background-position: center;
 }
-html body #slideshow div .main-title {
+html body #slideshow .slide-pic .main-title {
   position: absolute;
   top: 200px;
   left: 250px;
@@ -65,7 +65,7 @@ html body #slideshow div .main-title {
   text-shadow: 4px 4px black;
   font-family: "Rubik", sans-serif;
 }
-html body #slideshow div .main-title h1, html body #slideshow div .main-title .h1 {
+html body #slideshow .slide-pic .main-title h1, html body #slideshow .slide-pic .main-title .h1 {
   font-size: 3.5rem;
 }
 html body .second-title {
@@ -208,7 +208,10 @@ html body .abuot .abuot4 {
   html body #colorLogo #logo {
     width: 200%;
   }
-  html body #slideshow div .main-title {
+  html body #slideshow .slide-pic {
+    background-position-x: 3%;
+  }
+  html body #slideshow .slide-pic .main-title {
     top: 94px;
     left: 130px;
   }

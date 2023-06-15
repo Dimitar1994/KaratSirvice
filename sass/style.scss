@@ -78,7 +78,7 @@
 
              position: relative;
 
-             div {
+             .slide-pic {
                  width: auto;
                  height: 700px;
                  background-size: cover;
@@ -286,9 +286,14 @@
          width: 200%;
      }
 
-     html body #slideshow div .main-title {
-         top: 94px;
-         left: 130px
+     html body #slideshow .slide-pic {
+         background-position-x:3%;
+
+         .main-title {
+             top: 94px;
+             left: 130px
+         }
+
      }
 
      html body .auto-menu {
