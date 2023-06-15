@@ -3,7 +3,7 @@ html body .bx-wrapper {
   border: none;
 }
 html body .bx-wrapper img {
-  width: 100%;
+  width: auto;
   height: 700px;
   border: none;
 }
@@ -30,6 +30,10 @@ html body #colorLogo .address {
   font-size: 0.938rem;
 }
 html body .main-menu li a {
+  text-shadow: 1px 1px rgb(121, 118, 118);
+  padding: 10px;
+  color: #0d0d0d;
+  font-size: 1.55rem;
   transition: all 0.4s;
   font-family: "Rubik", sans-serif;
 }
@@ -48,7 +52,7 @@ html body #slideshow {
   position: relative;
 }
 html body #slideshow div {
-  width: 100%;
+  width: auto;
   height: 700px;
   background-size: cover;
   background-position: center;
@@ -58,7 +62,7 @@ html body #slideshow div .main-title {
   top: 200px;
   left: 250px;
   color: white;
-  text-shadow: 2px 2px black;
+  text-shadow: 4px 4px black;
   font-family: "Rubik", sans-serif;
 }
 html body #slideshow div .main-title h1, html body #slideshow div .main-title .h1 {
@@ -162,6 +166,7 @@ html body .auto-menu .diagnostics {
 html body .contakt-us {
   background-color: #FEBA4F;
   color: white;
+  text-shadow: 1px 1px black;
 }
 html body .abuot {
   font-family: "Rubik", sans-serif;
@@ -194,6 +199,56 @@ html body .abuot .abuot4 {
   background-position: center;
 }
 
+@media only screen and (max-width: 850px) {
+  html body .auto-menu a {
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (max-width: 780px) {
+  html body #colorLogo #logo {
+    width: 200%;
+  }
+  html body #slideshow div .main-title {
+    top: 94px;
+    left: 130px;
+  }
+  html body .auto-menu h2, html body .auto-menu .h2 {
+    font-size: 3rem;
+  }
+  html body .auto-menu .auto-menu-row {
+    display: grid;
+  }
+  html body .auto-menu .auto-menu-row a {
+    font-size: 2rem;
+  }
+  html body #colorLogo .contact-menu {
+    display: none;
+  }
+  html body .services-menu {
+    display: block;
+  }
+  html body .map iframe {
+    height: 400px;
+  }
+  html body .contakt-us {
+    display: none;
+  }
+  html body .abuot .abuot-row {
+    display: block;
+  }
+  html body .abuot .abuot-row .abuot2 {
+    margin-bottom: 2rem;
+  }
+  html body .abuot .abuot-row div {
+    width: auto;
+  }
+  html body div .container-footer {
+    font-size: 1.43rem;
+  }
+  html body div .container-footer h5, html body div .container-footer .h5 {
+    font-size: 2rem;
+  }
+}
 /*!
  * Bootstrap  v5.3.0 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors

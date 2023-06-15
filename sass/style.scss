@@ -6,7 +6,7 @@
              border: none;
 
              img {
-                 width: 100%;
+                 width: auto;
                  height: 700px;
                  border: none;
 
@@ -46,6 +46,10 @@
          .main-menu {
              li {
                  a {
+                     text-shadow: 1px 1px rgb(121, 118, 118);
+                     padding: 10px;
+                     color: #0d0d0d;
+                     font-size: 1.55rem;
                      transition: all .4s;
                      font-family: 'Rubik', sans-serif;
                  }
@@ -75,7 +79,7 @@
              position: relative;
 
              div {
-                 width: 100%;
+                 width: auto;
                  height: 700px;
                  background-size: cover;
                  background-position: center;
@@ -85,7 +89,7 @@
                      top: 200px;
                      left: 250px;
                      color: white;
-                     text-shadow: 2px 2px black;
+                     text-shadow: 4px 4px black;
                      font-family: 'Rubik', sans-serif;
 
                      h1 {
@@ -94,25 +98,26 @@
                  }
              }
 
-        }
+         }
 
-        .second-title{
-            color: #E89611;
-            font-family: 'Rubik', sans-serif;
-        }
+         .second-title {
+             color: #E89611;
+             font-family: 'Rubik', sans-serif;
+         }
 
-        .color{
-            text-shadow: 1px 1px black ;
-            background-color: #E89611;
-            border-radius: 20px;
-            font-family: 'Rubik', sans-serif;
-            span{
-                color: #3d3f43;
-                font-size: 1.125rem;
-            }
-        }
+         .color {
+             text-shadow: 1px 1px black;
+             background-color: #E89611;
+             border-radius: 20px;
+             font-family: 'Rubik', sans-serif;
 
-        
+             span {
+                 color: #3d3f43;
+                 font-size: 1.125rem;
+             }
+         }
+
+
 
 
          //autoRepairService settings
@@ -224,6 +229,7 @@
          .contakt-us {
              background-color: #FEBA4F;
              color: white;
+             text-shadow: 1px 1px black;
 
          }
 
@@ -267,5 +273,78 @@
      }
 
  }
+
+ @media only screen and (max-width:850px) {
+     html body .auto-menu a {
+         font-size: 1.40rem;
+     }
+ }
+
+
+ @media only screen and (max-width:780px) {
+     html body #colorLogo #logo {
+         width: 200%;
+     }
+
+     html body #slideshow div .main-title {
+         top: 94px;
+         left: 130px
+     }
+
+     html body .auto-menu {
+
+         h2 {
+             font-size: 3rem;
+         }
+
+         .auto-menu-row {
+             display: grid;
+
+             a {
+                 font-size: 2rem;
+             }
+         }
+     }
+
+     html body #colorLogo .contact-menu {
+         display: none;
+     }
+
+     html body .services-menu {
+         display: block;
+     }
+
+     html body .map iframe {
+         height: 400px;
+     }
+
+     html body .contakt-us {
+         display: none;
+     }
+
+     html body .abuot .abuot-row {
+
+         display: block;
+
+         .abuot2 {
+             margin-bottom: 2rem;
+         }
+
+         div {
+             width: auto;
+         }
+     }
+
+     html body div .container-footer {
+         font-size: 1.43rem;
+
+         h5 {
+             font-size: 2rem;
+         }
+     }
+
+
+ }
+
 
  @import'../node_modules/bootstrap/scss/bootstrap.scss'
