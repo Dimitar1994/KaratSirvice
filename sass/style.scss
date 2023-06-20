@@ -31,6 +31,7 @@
                  height: 137px;
              }
 
+
              span {
                  display: block;
                  font-size: 0.875rem;
@@ -49,7 +50,7 @@
                      transition: all .4s;
                      font-family: 'Rubik', sans-serif;
                      font-size: 1.25rem;
-                    font-weight: bold;
+                     font-weight: bold;
                  }
              }
 
@@ -96,25 +97,26 @@
                  }
              }
 
-        }
+         }
 
-        .second-title{
-            color: #E89611;
-            font-family: 'Rubik', sans-serif;
-        }
+         .second-title {
+             color: #E89611;
+             font-family: 'Rubik', sans-serif;
+         }
 
-        .color{
-            text-shadow: 1px 1px black ;
-            background-color: #E89611;
-            border-radius: 20px;
-            font-family: 'Rubik', sans-serif;
-            span{
-                color: #3d3f43;
-                font-size: 1.125rem;
-            }
-        }
+         .color {
+             text-shadow: 1px 1px black;
+             background-color: #E89611;
+             border-radius: 20px;
+             font-family: 'Rubik', sans-serif;
 
-        
+             span {
+                 color: #3d3f43;
+                 font-size: 1.125rem;
+             }
+         }
+
+
 
 
          //autoRepairService settings
@@ -268,6 +270,56 @@
          }
      }
 
+ }
+
+ @media screen and (max-width: 768px) {
+     .menu-adres {
+         display: none;
+     }
+
+     html body #colorLogo #logo {
+         width: 100%;
+     }
+
+     html body .services-menu {
+         display: block;
+     }
+
+     html body .head-mobile-size {
+         background-color: #988e8e;
+
+         nav {
+             padding: 0;
+
+             div {
+                 background-color: #988e8e;
+
+
+                 button {
+                     color: white;
+                     font-size: 1.7rem;
+                     margin-left: 40px;
+
+                 }
+
+                 #navbarNav {
+                     ul {
+                         margin-left: 33px;
+                         margin-top: 15px ;
+                       
+
+                         li {
+                             a {
+                                 color: white;
+                             }
+                         }
+                     }
+                 }
+
+             }
+
+         }
+     }
  }
 
  @import'../node_modules/bootstrap/scss/bootstrap.scss'
