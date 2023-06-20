@@ -13,11 +13,5 @@ $(document).ready(function () {
         .appendTo('#slideshow');
     },  9000);
 
-
-
-
-
-   
-    
-  
+        
 })
