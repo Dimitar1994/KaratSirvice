@@ -32,6 +32,8 @@ html body #colorLogo .address {
 html body .main-menu li a {
   transition: all 0.4s;
   font-family: "Rubik", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
 }
 html body .main-menu .active-color {
   background-color: #FEBA4F;
@@ -48,7 +50,7 @@ html body #slideshow {
   position: relative;
 }
 html body #slideshow div {
-  width: 100%;
+  width: auto;
   height: 700px;
   background-size: cover;
   background-position: center;

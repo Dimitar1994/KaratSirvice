@@ -11,7 +11,7 @@ $(document).ready(function () {
         .fadeIn(1000)
         .end()
         .appendTo('#slideshow');
-    },  9000);
+    },  90000);
 
 
 
