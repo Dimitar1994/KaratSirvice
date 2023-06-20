@@ -320,6 +320,18 @@
 
          }
      }
+
+     html body #slideshow div .main-title {
+        top: 30px;
+        left: 70px;
+     }
+
+    html body .map{
+        height: 360px;
+    }  
  }
+
+
+
 
  @import'../node_modules/bootstrap/scss/bootstrap.scss'
