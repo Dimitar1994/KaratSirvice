@@ -227,9 +227,6 @@ html body .abuot .abuot4 {
   html body .head-mobile-size nav div #navbarNav ul li a {
     color: white;
   }
-  html body #slideshow .slideshow-position {
-    background-position: unset;
-  }
   html body #slideshow div .main-title {
     top: 30px;
     left: 70px;

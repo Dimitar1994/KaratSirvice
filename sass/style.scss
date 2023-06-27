@@ -320,11 +320,17 @@
 
          }
      }
+ 
+     html body #slideshow .slideshow-position{
+        background-position: unset;
+     }
 
      html body #slideshow div .main-title {
         top: 30px;
         left: 70px;
      }
+
+     
 
     html body .map{
         height: 360px;
